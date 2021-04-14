@@ -23,7 +23,7 @@ function moveDodgerRight() {
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
 
-  if (left > 0 && left < 360) {               //360 because black container width=400px and the dodger width =40px
+  if (left > 0 && left < 360) {               //360 because black container width=400px and the dodger width =40px BUT also tried it wirh 400 and it worked hahahaha
     dodger.style.left = `${left + 1}px`;
   }
 }
